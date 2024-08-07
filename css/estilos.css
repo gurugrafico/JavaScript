@@ -78,3 +78,12 @@ body {
 		    background-color: green;
 		    flex: 1;
 		}
+
+		.footer p {
+			font-size: 30px;
+		    display: flex;
+		    align-content: center;
+		    justify-content: center;
+		    align-items: center;
+		    text-align: center;
+		}
