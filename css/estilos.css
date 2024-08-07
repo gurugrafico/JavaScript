@@ -46,9 +46,18 @@ body {
 		    text-align: center;
 		}
 
-		.comercial {
+		.contenido {
 		    background-color: teal;
 		    flex: 4;
+		}
+
+		.contenido p {
+			font-size: 30px;
+		    display: flex;
+		    align-content: center;
+		    justify-content: center;
+		    align-items: center;
+		    text-align: center;
 		}
 
 		.ads {
