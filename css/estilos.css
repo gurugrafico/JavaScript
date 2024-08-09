@@ -16,6 +16,7 @@ html {
 }
 
 body {
+		    background-attachment: #1e1f24;
 		    font-family: Arial;
 		    margin: 0;
 		    display: flex;
@@ -29,6 +30,9 @@ body {
 		}
 
 		.cabecera {
+			box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+			margin: 0;
+			padding: 0.5em 0 0.5em 2em;
 			text-align: center;
 		    color: white;
 		    font-size: 40px;
@@ -36,6 +40,15 @@ body {
 		    align-items: center;
 		    align-content: center;
 		    justify-content: center;
+		}
+
+		.cabecera #logo {
+			width: 70px;
+		    vertical-align: middle;
+		    background-color: white;
+		    border-radius: 100px;
+		    padding: 0.3em 0.4em;
+		    margin-right: 0.7em;
 		}
 
 		.content {
