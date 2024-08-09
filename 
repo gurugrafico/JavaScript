@@ -1,0 +1,241 @@
+[33mcommit e5e347451516b44037a7636771ab6b29caf4e0bf[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Andrés Quiñones <gurugrafico@users.noreply.github.com>
+Date:   Fri Aug 9 09:34:08 2024 -0500
+
+    Se ajusta el color de fuente del footer y se ajustan los párrafos de publicidad
+
+[33mcommit 40c620fef91e9e0c3b456c2c8ab5f1f521d410a6[m
+Author: Andrés Quiñones <gurugrafico@users.noreply.github.com>
+Date:   Fri Aug 9 09:30:22 2024 -0500
+
+    Se cambia el nombre del archivo a layout y se ajusta el css
+
+[33mcommit 21d493eacaa06bb8411dfdf9ba4e815a30bda278[m
+Author: Andrés Quiñones <gurugrafico@users.noreply.github.com>
+Date:   Wed Aug 7 18:47:48 2024 -0500
+
+    Se modifica el texto p de la clase footer
+
+[33mcommit fe47950445a7db5826dd207293e4ebbcfc6e1b09[m
+Author: Andrés Quiñones <gurugrafico@users.noreply.github.com>
+Date:   Wed Aug 7 18:44:09 2024 -0500
+
+    Se adiciona css a la clase contenido
+
+[33mcommit 18527a955dca8728844a0f4ab5724f7710e932c8[m
+Author: Andrés Quiñones <gurugrafico@users.noreply.github.com>
+Date:   Wed Aug 7 18:15:42 2024 -0500
+
+    Se ajusta la carpeta para que llame correctamente el css
+
+[33mcommit 9b8f180e5c36bdd7f4df846fed8c388b7436bced[m
+Merge: 9c8ebd2 8003bf9
+Author: Andrés Quiñones <gurugrafico@users.noreply.github.com>
+Date:   Wed Aug 7 18:13:19 2024 -0500
+
+    Merge pull request #4 from gurugrafico/main
+    
+    CSS externo en rama Main
+
+[33mcommit 8003bf9a370fd4053177c18870af02353268262f[m[33m ([m[1;33mtag: [m[1;33mv0.1[m[33m)[m
+Author: Andrés Quiñones <gurugrafico@users.noreply.github.com>
+Date:   Wed Aug 7 17:48:26 2024 -0500
+
+    Se agrega el CSS externo
+
+[33mcommit 204e2620516080c7979988a9ea019129c4891e3e[m
+Author: Andrés Quiñones <gurugrafico@users.noreply.github.com>
+Date:   Wed Aug 7 17:44:16 2024 -0500
+
+    Se utiliza la versión 11.0
+
+[33mcommit 9c8ebd255ec1b0b2c3094e63373007e3a37f21e3[m
+Author: Andrés Quiñones <gurugrafico@users.noreply.github.com>
+Date:   Wed Aug 7 17:36:47 2024 -0500
+
+    Se utiliza la versión 10.0
+
+[33mcommit c3685fa09526c1ecb31c4da616be4246741a5c76[m
+Author: Andrés Quiñones <gurugrafico@users.noreply.github.com>
+Date:   Wed Aug 7 17:34:00 2024 -0500
+
+    Se quita la versión del title
+
+[33mcommit 0de4deac906d4643412f703d1ec79bf2b8556e7b[m
+Author: Andrés Quiñones <gurugrafico@users.noreply.github.com>
+Date:   Wed Aug 7 17:29:53 2024 -0500
+
+    Se selecciona el layout 9.0
+
+[33mcommit 8a6966ab9c9537ca7b4fc5e44617e7d9ab4e65e0[m
+Author: Andrés Quiñones <gurugrafico@users.noreply.github.com>
+Date:   Wed Aug 7 17:11:37 2024 -0500
+
+    Se deja el layout 8.0
+
+[33mcommit df251e4ffe0f00a6426b0af7a0891b0470415fba[m
+Merge: b3ef16f 51473d0
+Author: Andrés Quiñones <gurugrafico@users.noreply.github.com>
+Date:   Wed Aug 7 17:10:04 2024 -0500
+
+    Merge branch 'master' of https://github.com/gurugrafico/fundamentos-de-javascript
+
+[33mcommit b3ef16fdc86326d55321c3939a54e2ced7afbf50[m
+Author: Andrés Quiñones <gurugrafico@users.noreply.github.com>
+Date:   Wed Aug 7 17:09:06 2024 -0500
+
+    Update blogpost.html
+    
+    Se agrega el 8.0
+
+[33mcommit 51473d08eb6798b0872229d3289afd621119b4ef[m
+Author: Andrés Quiñones <gurugrafico@users.noreply.github.com>
+Date:   Wed Aug 7 17:08:40 2024 -0500
+
+    Update blogpost.html
+    
+    Se agrega ahora el 7.0
+
+[33mcommit d5d4b71fd28fb6437426b019b7d560440f7c1588[m
+Author: Andrés Quiñones <gurugrafico@users.noreply.github.com>
+Date:   Wed Aug 7 17:03:43 2024 -0500
+
+    Se adiciona el 6.0
+
+[33mcommit c99bae9643e21c68c5c5e9548a901e7c3b885e98[m
+Author: Andrés Quiñones <gurugrafico@users.noreply.github.com>
+Date:   Wed Aug 7 17:02:01 2024 -0500
+
+    Update blogpost.html
+    
+    Se adiciona el 5.0
+
+[33mcommit 8e40850425f61f2d3098cab66381bb3aff783d6f[m
+Merge: 844964d e609155
+Author: Andrés Quiñones <gurugrafico@users.noreply.github.com>
+Date:   Wed Aug 7 17:00:04 2024 -0500
+
+    Merge branch 'main' of https://github.com/gurugrafico/fundamentos-de-javascript :)
+
+[33mcommit 844964dc40386dbf47e342a38f38faa71b97785b[m
+Author: Andrés Quiñones <gurugrafico@users.noreply.github.com>
+Date:   Wed Aug 7 16:59:08 2024 -0500
+
+    Se ajusta el título a 4.0
+
+[33mcommit e60915507eb3f1bd32b4b90605958431d3625b56[m
+Merge: 91a5562 ff3ce95
+Author: Andrés Quiñones <gurugrafico@users.noreply.github.com>
+Date:   Wed Aug 7 16:56:34 2024 -0500
+
+    Merge pull request #3 from gurugrafico/master
+    
+    Le agregue 3.0
+
+[33mcommit ff3ce955aa32048cebf747a74e3982518ae1ffc7[m
+Author: Andrés Quiñones <gurugrafico@users.noreply.github.com>
+Date:   Wed Aug 7 16:52:45 2024 -0500
+
+    Le agregue 3.0
+
+[33mcommit 91a556297fe826fc0553ef13e4940e1a6908e806[m
+Author: Andrés Quiñones <gurugrafico@users.noreply.github.com>
+Date:   Wed Aug 7 16:48:22 2024 -0500
+
+    Se cambia el texto de la cabecera
+
+[33mcommit 21ccc0b955a585681395ec1fd26b68d7caf1f15f[m
+Merge: e5df556 d798ec1
+Author: Andrés Quiñones <gurugrafico@users.noreply.github.com>
+Date:   Wed Aug 7 16:44:57 2024 -0500
+
+    Merge branch 'master' of https://github.com/gurugrafico/fundamentos-de-javascript
+
+[33mcommit e5df556aaf3fe09a4588bc45db9ebc49c5a4bdeb[m
+Author: Andrés Quiñones <gurugrafico@users.noreply.github.com>
+Date:   Wed Aug 7 16:42:50 2024 -0500
+
+    Se le agrega al título '2.0'
+
+[33mcommit d798ec19fe2909e2a0d739955f0d945814164772[m
+Author: Andrés Quiñones <gurugrafico@users.noreply.github.com>
+Date:   Wed Aug 7 16:37:44 2024 -0500
+
+    Se actualiza el título del layout
+    
+    Testing
+
+[33mcommit 6099eca5576f987067154f047746110b98b62dcb[m
+Merge: caa61e0 0cdefb3
+Author: Andrés Quiñones <gurugrafico@users.noreply.github.com>
+Date:   Wed Aug 7 16:16:19 2024 -0500
+
+    Merge pull request #1 from gurugrafico/main
+    
+    Se sube el código a Github
+
+[33mcommit 0cdefb311e40a94e03d41183acde820302250740[m
+Author: Andrés Quiñones <gurugrafico@users.noreply.github.com>
+Date:   Wed Aug 7 16:13:53 2024 -0500
+
+    Se sube el código a Github
+
+[33mcommit caa61e032380a178eefacf74bf286f333553d9fe[m
+Author: Andrés Quiñones <xndres18@gmail.com>
+Date:   Mon Jun 26 11:11:29 2023 -0500
+
+    Adding titles to text sizes
+
+[33mcommit 1c0e157d9ecc4bd82f946b31ff48c05010ab1de4[m
+Author: gurugrafico <xndres18@gmail.com>
+Date:   Mon Jun 26 10:54:21 2023 -0500
+
+    Learning about em and rem text sizes
+
+[33mcommit 361f909f59075310c099901101f92a6829cd0d2a[m
+Author: Andrés Quiñones <xndres18@gmail.com>
+Date:   Sun Feb 2 11:37:55 2020 -0500
+
+    Se agrega la clase 21 de Prototipado en JavaScript
+
+[33mcommit b71c3ba0785fdf0d6db574ca707030cf8af8141c[m
+Author: Andrés Quiñones <xndres18@gmail.com>
+Date:   Sat Feb 1 22:03:23 2020 -0500
+
+    Se agregan clases desde la 16 hasta la 20
+
+[33mcommit fe749a33201f1a12fea28b2e311b98a8ed41cd7a[m
+Author: Andrés Quiñones <xndres18@gmail.com>
+Date:   Sat Feb 1 00:27:28 2020 -0500
+
+    Se agregan más clases de JavaScript
+
+[33mcommit 337112551603dc05e60fc9befd750e337ac244c9[m
+Author: Andrés Quiñones <xndres18@gmail.com>
+Date:   Wed Jan 29 23:10:20 2020 -0500
+
+    Se agrega la clase 13 sobre Estructuras Repetitivas For
+
+[33mcommit 7c50224ebdf57f067c745839cadf1cf3c6d1fe1e[m
+Author: Andrés Quiñones <xndres18@gmail.com>
+Date:   Sun Jan 26 23:39:24 2020 -0500
+
+    Se agregan Condiciones y Funciones
+
+[33mcommit b5f4335262d37734134d4795cccc7a4def182c42[m
+Author: Andrés Quiñones <xndres18@gmail.com>
+Date:   Sun Jan 26 22:50:45 2020 -0500
+
+    Se realizan más ejercicios de JavaScript
+
+[33mcommit 17d7b063eea87d2abf34933ec5f976ea636eb27b[m
+Author: Andrés Quiñones <xndres18@gmail.com>
+Date:   Sun Jan 26 16:28:47 2020 -0500
+
+    Se crea el archivo clase4.js
+
+[33mcommit 8e93a9a5552f962576c99b613dfdde79c60ddc86[m
+Author: Andrés Quiñones <gurugrafico@users.noreply.github.com>
+Date:   Sun Jan 26 15:47:13 2020 -0500
+
+    Initial commit
