@@ -20,6 +20,7 @@ switch (food) {
 }
  */
 
+
   let peliculas = ["Inception", "Interstellar", "The Matrix", "Joker", "Parasite", "Deadpool", "Soul"];
 
   for (let i = 0; i < peliculas.length; i++) {
