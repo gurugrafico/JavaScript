@@ -58,3 +58,44 @@ fetchButton.addEventListener("click", fetchPost);
 
 // Hasta aquí fue el primer paso que fue crear la función y la petición, ahora toca extraer la información.
 // Iteramos sobre el arreglo de objetos.
+
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
+  const title = event.currentTarget.querySelector("#title").value;
+  const content = event.currentTarget.querySelector("#content").value;
+
+  console.log(title, content);
+  createPost(title, content);
+});
+
+// Crear una función que consuma el servicio http y cree el post
+
+async function createPost(title, content){
+  const userId = Math.random();
+  const post = {
+    title: title,
+    body: content,
+    userId: userId,
+  };
+
+  await sendHTTPRequest(
+    "POST",
+    "https://jsonplaceholder.typicode.com/posts",
+    post
+  );
+}
+
+// Función para eliminar un evento específico
+
+postList.addEventListener("click", (event) => {
+  console.log(event);
+
+  if(event.target.tagName == "BUTTON"){
+    const postId = event.target.closest("article").id;
+    console.log(postId)
+
+    sendHTTPRequest(
+      "DELETE",
+      `https://jsonplaceholder.typicode.com/posts/${postId}`)
+  }
+});
