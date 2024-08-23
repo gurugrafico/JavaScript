@@ -80,7 +80,7 @@ async function createPost(title, content){
 
   await sendHTTPRequest(
     "POST",
-    "posts.json",
+    "https://jsonplaceholder.typicode.com/posts",
     post
   );
 }
