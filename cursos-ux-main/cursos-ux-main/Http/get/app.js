@@ -56,7 +56,7 @@ async function fetchPost() {
 
 fetchButton.addEventListener("click", fetchPost);
 
-// Hasta aquí fue el primer paso que fue crear la función y la petición, ahora toca extraer la información.
+// Hasta aquí fue el primer paso que fue crear la función y la petición. Ahora toca extraer la información.
 // Iteramos sobre el arreglo de objetos.
 
 form.addEventListener("submit", (event) => {
