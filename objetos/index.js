@@ -30,3 +30,7 @@ persona.saludar();
 persona.telefono = "3216548709";
 
 console.log(persona.telefono);
+
+persona.despedir = () => {
+    console.log("Adiós")
+}
