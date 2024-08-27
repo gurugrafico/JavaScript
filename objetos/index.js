@@ -32,5 +32,11 @@ persona.telefono = "3216548709";
 console.log(persona.telefono);
 
 persona.despedir = () => {
-    console.log("Adiós")
-}
+    console.log("Adiós");
+};
+
+persona.despedir();
+
+delete persona.telefono;
+
+delete persona.despedir;
