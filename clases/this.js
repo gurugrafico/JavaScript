@@ -2,7 +2,7 @@
 
 this --- class
 
-this --- objeto -- class
+this --- objeto -- class (molde)
 
 */
 
