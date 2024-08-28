@@ -14,3 +14,5 @@ class Persona {
 }
 
 const persona1 = new Persona("Alice", 25)
+
+console.log(persona1);
