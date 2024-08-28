@@ -5,14 +5,14 @@ const usersDatabase = [
 ];
 
 const usersTimeline = [
-  { username: "Estefany", timeline: "Me encata Javascript!" },
-  { username: "Oscar", timeline: "Bebeloper es lo mejor!" },
-  { username: "Mariana", timeline: "A mi me gusta más el café que el té" },
-  { username: "Andres", timeline: "Yo hoy no quiero trabajar" },
+  { username: "Estefany", timeline: "¡Me encanta Javascript!" },
+  { username: "Oscar", timeline: "¡Bebeloper es lo mejor!" },
+  { username: "Mariana", timeline: "A mí me gusta más el café que el té" },
+  { username: "Andrés", timeline: "Yo hoy no quiero trabajar" },
 ];
 
-const username = prompt("Cuál es tu usuario?");
-const password = prompt("Cuál es tu contraseña?");
+const username = prompt("¿Cuál es tu usuario?");
+const password = prompt("¿Cuál es tu contraseña?");
 function usuarioExistente(username, password) {
   for (let i = 0; i < usersDatabase.length; i++) {
     if (
