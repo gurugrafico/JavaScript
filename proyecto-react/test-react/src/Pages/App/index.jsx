@@ -5,6 +5,7 @@ import MyAccount from '../MyAccount';
 import MyOrder from '../MyOrder';
 import MyOrders from '../MyOrders';
 import NotFound from '../NotFound';
+import Navbar from '../../Components/Navbar';
 import SignIn from '../SignIn';
 
 const AppRoutes = () => {
