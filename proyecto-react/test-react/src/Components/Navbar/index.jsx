@@ -18,16 +18,13 @@ const Navbar = () => {
         </ui>
         <ui>
             <li>
-                <NavLink to="/">Shop</NavLink>
+                <NavLink to="/my-account">Mi cuenta</NavLink>
             </li>
             <li>
-                <NavLink to="/clothes">Ropa</NavLink>
+                <NavLink to="/my-orders">Mis órdenes</NavLink>
             </li>
             <li>
-                <NavLink to="/electronics">Electrónicos</NavLink>
-            </li>
-            <li>
-                <NavLink to="/other">Otros</NavLink>
+                <NavLink to="/sign-in">Registrarse</NavLink>
             </li>
         </ui>
     </nav>
