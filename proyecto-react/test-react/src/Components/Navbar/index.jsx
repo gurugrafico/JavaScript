@@ -17,7 +17,7 @@ const Navbar = () => {
                     <NavLink to="/other">Otros</NavLink>
                 </li>
             </ul>
-            <ul className="flex item-center gap-3">
+            <ul className="flex item-center gap-3"> 
                 <li>
                     <NavLink to="/my-account">Mi cuenta</NavLink>
                 </li>
