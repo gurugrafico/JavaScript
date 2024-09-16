@@ -1,7 +1,13 @@
+import Layout from "../../Components/Layout"
+import Card from "../../Components/Card"
+
 function Home() {
 
   return (
-    <div className='bg-orange-600'>Home 🏠</div>
+    <Layout className='bg-orange-600'>
+      Inicio 🏠
+      <Card></Card>
+    </Layout>
   )
 }
 

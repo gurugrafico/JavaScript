@@ -1,7 +1,9 @@
+import Layout from "../../Components/Layout"
+
 function MyOrder() {
 
   return (
-    <div className='bg-green-600'>MyOrder 🧾</div>
+    <Layout className='bg-green-600'>MyOrder 🧾</Layout>
   )
 }
 

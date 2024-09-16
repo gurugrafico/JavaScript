@@ -1,7 +1,9 @@
+import Layout from "../../Components/Layout"
+
 function MyAccount() {
 
   return (
-    <div className='bg-amber-500'>MyAccount 🧾</div>
+    <Layout className='bg-amber-500'>MyAccount 🧾</Layout>
   )
 }
 
