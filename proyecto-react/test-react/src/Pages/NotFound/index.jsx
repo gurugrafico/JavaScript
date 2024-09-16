@@ -1,7 +1,7 @@
 function NotFound() {
 
   return (
-    <div className='bg-cyan-600'>NotFound!</div>
+    <div className='bg-cyan-600'>NotFound 🚫</div>
   )
 }
 
