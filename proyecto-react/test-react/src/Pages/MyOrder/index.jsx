@@ -1,7 +1,7 @@
 function MyOrder() {
 
   return (
-    <div className='bg-green-600'>MyOrder!</div>
+    <div className='bg-green-600'>MyOrder 🧾</div>
   )
 }
 
