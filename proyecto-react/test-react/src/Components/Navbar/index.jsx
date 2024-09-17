@@ -1,4 +1,8 @@
 import { NavLink } from "react-router-dom";
+import { useContext } from "react";
+import { ShoppingCartContext } from "../../Context";
+
+// Quedé en el minuto 49:40 de la sesión 22.
 
 const Navbar = () => {
     return (

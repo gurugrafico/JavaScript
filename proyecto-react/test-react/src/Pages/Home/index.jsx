@@ -15,9 +15,11 @@ function Home() {
   return (
     <Layout className='bg-orange-600'>
       Inicio 🏠
-      {items?.map(() => (
-        <Card/>
-      ))}
+      <div className="grid gap-4 grid-cols-4 w-full max-w-screen-md">
+        {items?.map((item) => (
+          <Card key={item.id} data={item}/>
+        ))}
+      </div>      
     </Layout>
   )
 }
