@@ -2,8 +2,6 @@ import { NavLink } from "react-router-dom";
 import { useContext } from "react";
 import { ShoppingCartContext } from "../../Context";
 
-// Quedé en el minuto 49:40 de la sesión 22.
-
 const Navbar = () => {
     return (
         <nav className="flex justify-between items-center fixed z-10 w-full py-8 px-8 text-sm font-light top-0">
