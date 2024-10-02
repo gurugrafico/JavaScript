@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UX-Cash Login</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <style>
+        /* Los estilos permanecen iguales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .container {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input {
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 0.5rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .error {
+            color: red;
+            margin-bottom: 1rem;
+        }
+        .user-info {
+            margin-top: 1rem;
+        }
+        .admin-panel {
+            margin-top: 2rem;
+            border-top: 1px solid #ccc;
+            padding-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="app"></div>
+
+    <script>
+        const { createApp, ref } = Vue;
+
+        const App = {
+            setup() {
+                const username = ref('');
+                const password = ref('');
+                const user = ref(null);
+                const errorMessage = ref('');
+                const users = ref([
+                    { name: 'Juan', surname: 'Pérez', phone: '123456789', email: 'juan@example.com', password: 'pass1', notifications: true, role: 'user', active: true },
+                    { name: 'María', surname: 'García', phone: '987654321', email: 'maria@example.com', password: 'pass2', notifications: false, role: 'user', active: true },
+                    { name: 'Carlos', surname: 'López', phone: '456789123', email: 'carlos@example.com', password: 'pass3', notifications: true, role: 'user', active: true },
+                    { name: 'Ana', surname: 'Martínez', phone: '789123456', email: 'ana@example.com', password: 'pass4', notifications: false, role: 'user', active: true },
+                    { name: 'Admin', surname: 'Istrador', phone: '159753456', email: 'admin@example.com', password: 'admin', notifications: true, role: 'admin', active: true }
+                ]);
+
+                const login = () => {
+                    const foundUser = users.value.find(u => u.name.toLowerCase() === username.value.toLowerCase() && u.password === password.value);
+                    if (foundUser) {
+                        if (foundUser.active) {
+                            user.value = { ...foundUser };
+                            errorMessage.value = '';
+                        } else {
+                            errorMessage.value = 'Usuario desactivado. Contacte al administrador.';
+                        }
+                    } else {
+                        errorMessage.value = 'Usuario no encontrado';
+                    }
+                };
+
+                const logout = () => {
+                    user.value = null;
+                    username.value = '';
+                    password.value = '';
+                };
+
+                const toggleUserStatus = (index) => {
+                    users.value[index].active = !users.value[index].active;
+                };
+
+                return {
+                    username,
+                    password,
+                    user,
+                    errorMessage,
+                    users,
+                    login,
+                    logout,
+                    toggleUserStatus
+                };
+            },
+            template: `
+                <div class="container">
+                    <div v-if="!user">
+                        <h1>Iniciar Sesión</h1>
+                        <form @submit.prevent="login">
+                            <input v-model="username" type="text" placeholder="Nombre de usuario" required>
+                            <input v-model="password" type="password" placeholder="Contraseña" required>
+                            <button type="submit">Iniciar Sesión</button>
+                        </form>
+                        <p v-if="errorMessage" class="error">{{ errorMessage }}</p>
+                    </div>
+
+                    <div v-else>
+                        <h1>¡Bienvenido, {{ user.name }}!</h1>
+                        <div class="user-info">
+                            <p><strong>Nombre:</strong> {{ user.name }} {{ user.surname }}</p>
+                            <p><strong>Teléfono:</strong> {{ user.phone }}</p>
+                            <p><strong>Correo:</strong> {{ user.email }}</p>
+                            <p><strong>Rol:</strong> {{ user.role }}</p>
+                            <p><strong>Recibir notificaciones:</strong> {{ user.notifications ? 'Sí' : 'No' }}</p>
+                        </div>
+                        <button @click="logout">Cerrar Sesión</button>
+
+                        <div v-if="user.role === 'admin'" class="admin-panel">
+                            <h2>Panel de Administración</h2>
+                            <ul>
+                                <li v-for="(u, index) in users" :key="index">
+                                    {{ u.name }} {{ u.surname }} - 
+                                    <button @click="toggleUserStatus(index)">
+                                        {{ u.active ? 'Desactivar' : 'Activar' }}
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            `
+        };
+
+        Vue.createApp(App).mount('#app');
+    </script>
+</body>
+</html>
