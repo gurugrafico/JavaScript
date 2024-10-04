@@ -1,4 +1,4 @@
-const vowels = ['a', 'e', 'i', 'o', 'u'];
+/* const vowels = ['a', 'e', 'i', 'o', 'u'];
 
 let words = ['oak', 'sycamore', 'birch', 'sequoia'];
 
@@ -12,4 +12,10 @@ for (let w = 0; w < words.length; w += 1) {
     }
   }
   console.log(`"${word}" contains ${count} vowels.`);
+} */
+
+var colors = ["pink", "orange", "purple", "yellow"]
+
+for (let i = 0; i < colors.length; i++) {
+    console.log(colors[i]);
 }
